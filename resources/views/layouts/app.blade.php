@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Laravel - @yield('titulo')</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -14,10 +14,13 @@
     <body class="antialiased">
         <nav>
             <a href="/">Principal</a>
-            <a href="#">Principal</a>
-            <a href="/departamento">Principal</a>
+            <a href="/alcaldia">Alcaldia</a>
+            <a href="/departamento">Departamento</a>
+            <a href="/aduana">Aduana</a>
         </nav>
 
-        <h1>Nombre de la pagina</h1>
+        <h1>@yield('titulo')</h1>
+        <hr>
+        @yield('contenido')
     </body>
 </html>

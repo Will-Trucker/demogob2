@@ -25,3 +25,6 @@ Route::get('/departamento',function(){
     return view('departamento');
 });
 
+Route::get('/aduana',function(){
+    return view('aduanas');
+});

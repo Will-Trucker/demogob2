@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('titulo')
-    Pagina Principal
+    Pagina Aduanas
 @endsection
 
 @section('contenido')
