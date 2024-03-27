@@ -25,6 +25,6 @@ Route::get('/departamento',function(){
     return view('departamento');
 });
 
-Route::get('/aduana',function(){
-    return view('aduanas');
+Route::get('/aduana/{codigo}', function($codigo){
+    return "El codigo ingresado es: ".$codigo;
 });
